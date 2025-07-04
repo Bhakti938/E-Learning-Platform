@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta information for proper rendering and responsiveness -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Title of the webpage -->
+  <title>E-learning platform</title>
+  
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="styles.css" />
+  
+  <!-- Link to external JavaScript file (deferred loading) -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Header section containing logo and navigation bar -->
+  <header>
+    <div class="logo">E-learning</div>
+    <nav>
+      <!-- Navigation links -->
+      <a href="#">Academic</a>
+      <a href="#">Skill Development</a>
+      <a href="#">Blogs</a>
+      <!-- Search input for courses -->
+      <input type="text" placeholder="Search for courses" />
+    </nav>
+  </header>
+
+  <!-- Main layout: sidebar and content area using flexbox -->
+  <div style="display: flex;">
+    
+    <!-- Sidebar / Aside Menu -->
+    <aside>
+      <h3>Menu</h3>
+      <ul>
+        <li>Courses</li>
+        <li>Carts</li>
+        <li>Sharing</li>
+        <li>Achievements</li>
+      </ul>
+
+      <!-- Favourite list section -->
+      <h4>Favourite List</h4>
+      <ul>
+        <li>IOS App Design</li>
+        <li>UX Research</li>
+        <li>Principle</li>
+      </ul>
+
+      <!-- Course suggestions section -->
+      <h4>You May Like</h4>
+      <div>
+        <span>UI Design</span>
+        <span>Animation</span>
+        <span>WordPress</span>
+      </div>
+    </aside>
+
+    <!-- Main content area -->
+    <main>
+
+      <!-- Welcome section with gradient background -->
+      <section class="welcome" style="background: linear-gradient(to right, #6366f1, #8b5cf6); padding: 2rem; border-radius: 1rem; color: white;">
+        <h1>Welcome Max</h1>
+        <p>Education is key to success, So Learn more & more</p>
+        <button>Browse Courses</button>
+      </section>
+
+      <!-- Ongoing Courses section -->
+      <section class="courses" style="margin-top: 2rem;">
+        <h2>On-going Courses</h2>
+
+        <!-- Course cards container -->
+        <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+
+          <!-- Individual course card -->
+          <div class="course-card">
+            <div style="background: orange; color: white; padding: 0.25rem; border-radius: 6px; display: inline-block;">UX Design</div>
+            <h4>UX & Web Design Master Course A-Z</h4>
+            <p>Author: Dinesh</p>
+            <progress value="48" max="100"></progress>
+          </div>
+
+          <!-- Course 2 -->
+          <div class="course-card">
+            <div style="background: purple; color: white; padding: 0.25rem; border-radius: 6px; display: inline-block;">Animation</div>
+            <h4>Adobe After Effects Masterclass</h4>
+            <p>Author: Pooja</p>
+            <progress value="78" max="100"></progress>
+          </div>
+
+          <!-- Course 3 -->
+          <div class="course-card">
+            <div style="background: teal; color: white; padding: 0.25rem; border-radius: 6px; display: inline-block;">Illustration</div>
+            <h4>How to shape your concept</h4>
+            <p>Author: Ashok</p>
+            <progress value="81" max="100"></progress>
+          </div>
+
+          <!-- Course 4 -->
+          <div class="course-card">
+            <div style="background: rebeccapurple; color: white; padding: 0.25rem; border-radius: 6px; display: inline-block;">Adobe Illustrator</div>
+            <h4>Adobe Illustrator Master Class A-Z</h4>
+            <p>Author: Meena</p>
+            <progress value="88" max="100"></progress>
+          </div>
+        </div>
+      </section>
+
+      <!-- Activity Section -->
+      <section class="activity" style="margin-top: 2rem;">
+        <h2>Activity</h2>
+
+        <!-- Placeholder for graph or visual -->
+        <div style="height: 200px; background: #eef; border-radius: 10px; display: flex; justify-content: center; align-items: center;">
+          <p>Graph Placeholder</p>
+        </div>
+      </section>
+
+      <!-- Recommended Courses section -->
+      <section class="suggested" style="margin-top: 2rem;">
+        <h2>Recomended Courses</h2>
+
+        <!-- Recommended course 1 -->
+        <div style="display: flex; flex-direction: column; gap: 1rem;">
+          <div style="display: flex; align-items: center; gap: 1rem; background: white; padding: 1rem; border-radius: 1rem;">
+            <div>
+              <strong>Illustration Course Master Class</strong><br />
+              <small>By Meena • 12/07/2025</small>
+            </div>
+          </div>
+
+          <!-- Recommended course 2 -->
+          <div style="display: flex; align-items: center; gap: 1rem; background: white; padding: 1rem; border-radius: 1rem;">
+            <div>
+              <strong>Typography Rules in Webdesign</strong><br />
+              <small>By Diya • 12/07/2019</small>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
