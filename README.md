@@ -24,3 +24,7 @@ This project taught me how to design modular and scalable UIs for larger web app
 
 Overall, this task enhanced my ability to design user-friendly dashboards, work with real-world layout scenarios, and simulate complex UI flows using frontend technologies. The result is a functional, well-structured, and visually balanced e-learning front-end that represents both creativity and coding discipline.
 
+*OUTPUT*
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/8b71a64b-0899-4c7b-8454-955e73250f96" />
+
+*
